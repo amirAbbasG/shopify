@@ -1,0 +1,14 @@
+.root {
+    @apply bg-black;
+}
+
+.secondary {
+    @apply bg-white;
+}
+
+.container {
+    @apply flex;
+    & > * {
+        @apply px-16 max-w-lg;
+    }
+}
